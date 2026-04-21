@@ -1,45 +1,109 @@
 # =========================
-# Python
+# 🐍 Python core
 # =========================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Jupyter Notebook
-.ipynb_checkpoints/
+.Python
+*.so
 
 # =========================
-# System Files
+# 🧪 Virtual environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# =========================
+# 📦 Distribution / build
+# =========================
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+*.egg
+
+# =========================
+# 🧠 Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# 📊 Data 
+# =========================
+data/
+dataset/
+datasets/
+*.csv
+*.parquet
+*.json
+*.h5
+*.pkl
+*.pickle
+
+# (keep only if your repo explicitly version-controls sample data)
+
+# =========================
+# 🤖 ML / model artifacts
+# =========================
+models/
+model/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.joblib
+*.sav
+
+# =========================
+# 🔐 Environment variables & secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+config.json
+secrets.json
+
+# =========================
+# 🪵 Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# 🧑‍💻 IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# 🧬 OS files
 # =========================
 .DS_Store
 Thumbs.db
 
 # =========================
-# Data Files (optional)
+# 🧪 Testing / coverage
 # =========================
-# Uncomment if your data is large
-# data/raw/
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
 
 # =========================
-# Logs & temp files
+# ⚙️ ML frameworks
 # =========================
-*.log
-tmp/
-temp/
-
-# =========================
-# IDE / Editor files
-# =========================
-.vscode/
-.idea/
-
-# =========================
-# OS generated files
-# =========================
-*.swp
+wandb/
+mlruns/
+lightning_logs/
