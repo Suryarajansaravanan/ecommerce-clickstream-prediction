@@ -1,6 +1,6 @@
+![E-commerce Clickstream Prediction Banner](banner.png)
 # E-commerce-clickstream-prediction
 Predicting e-commerce purchase intent using interpretable machine learning (Logistic Regression &amp; LightGBM with SHAP)
-![Project Banner](your-image.png)
 ## 📌 Project Overview
 
 In the fast-growing world of e-commerce, understanding **customer behavior** is critical for increasing conversions and revenue. This project focuses on analyzing **clickstream data** (user browsing activity) to predict whether a user will make a purchase during a session.
